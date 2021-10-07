@@ -21,6 +21,7 @@ void CAdminControl::Draw()
 	DrawShape();
 }
 
+//“_‚Ì•`‰æ
 void CAdminControl::DrawPoints()
 {
 	CShape* nowS = shape_head;
@@ -43,6 +44,7 @@ void CAdminControl::DrawPoints()
 	}
 }
 
+//ü‚Ì•`‰æ
 void CAdminControl::DrawLines()
 {
 	CVertex* nowV = shape_final->GetVertexHead();
@@ -61,7 +63,7 @@ void CAdminControl::DrawLines()
 	glEnd();
 }
 
-
+//Œ`ó‚Ì•`‰æ
 void CAdminControl::DrawShape()
 {
 	CShape* nowS = shape_head;
